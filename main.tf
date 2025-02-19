@@ -9,7 +9,7 @@ resource "aws_iam_account_password_policy" "password_policy" {
   max_password_age               = 90
   password_reuse_prevention      = 24  
   hard_expiry                    = false
-}
+} 
 
 
 # Linux EC2 Instance with password history enforcement
