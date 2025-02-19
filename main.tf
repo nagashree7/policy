@@ -1,3 +1,7 @@
+provider {
+    aws_region = "us-east-1"
+}
+
 # IAM Password Policy Resource
 resource "aws_iam_account_password_policy" "password_policy" {
   minimum_password_length        = 14
